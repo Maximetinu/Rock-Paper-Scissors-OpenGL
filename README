@@ -1,0 +1,43 @@
+USO: make clean ; make ; ./practica
+
+Botones para interactuar (en mayúscula):
+
+1, 2, 3, 4, 5, 6 y 7: cambia entre cubo, tetraedro, pirámide, perfil, objeto revolución, simulador de mano y piedra papel tijeras multiplayer, respectivamente.
+R, G y B: cambia el color de la figura.
+P, O, I, y U: cambia el modo de dibujado.
+K y L cambian el grosor de los puntos (sólo en modo punto).
+J y H cambian la escala del dibujo.
+
+Notas.
+
+1. Pirámide aún no funciona bien.
+2. Para cambiar entre un objeto PLY y otro, hay que modificar la inicializaciónde n_A_ (nombre archivo) al principio de escena.cc
+3. La clase ObjetoRevolución solo crea objetos revolucionando un perfil exclusivamente en el eje Y.
+4. En escena.cc hay una macro para cambiar la versión de dibujado.
+5. Para cambiar el tamaño de las figuras, se le pasan los valores como argumento del constructor.
+
+CONTROLES SIMULADOR DE MANO (en minúscula):
+
+WASD: controlar codo.
+RF: subir o bajar muñeca.
+QE: girar muñeca.
+,.: juntar o separar dedos.
+0': abrir o cerrar mano completa.
+
+DEDOS:
+OL: abrir/cerrar pulgar.
+IK: abrir/cerrar anular.
+UJ: abrir/cerrar corazón.
+YH: abrir/cerrar índice.
+TG: abrir/cerrar meñique.
+
+CONTROLES PIEDRA/PAPEL/TIJERAS MULTIPLAYER.
+
+Mano roja:
+	Piedra: Z.
+	Papel: X.
+	Tijeras: C.
+Mano azul:
+	Piedra: B.
+	Papel: N.
+	Tijeras: M.
